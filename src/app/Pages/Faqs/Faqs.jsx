@@ -14,7 +14,7 @@ export const Faqs = () => {
 
   return (
     <section className="bg-[#F2F3F7] py-[84px]">
-      <div className="container flex justify-between">
+      <div className="container flex items-center justify-between">
         <div className="max-w-[593px]">
           <h2 className="max-w-[455px] text-[#121212] text-[32px] font-bold leading-tight">
             Почему именно Diamonds diaz
@@ -33,14 +33,14 @@ export const Faqs = () => {
               >
                 <div>
                   <h3
-                    className={`text-[32px] font-bold ${
+                    className={`text-[32px] font-bold font-Roboto  ${
                       active === index ? "text-white" : "text-[#000]"
                     }`}
                   >
                     {item.title}
                   </h3>
                   <p
-                    className={`max-w-[420px] text-[14px] leading-[22px] mt-[15px] ${
+                    className={`max-w-[420px] text-[16px] font-Roboto leading-[22px] mt-[15px] ${
                       active === index ? "text-white" : "text-[#121212]"
                     }`}
                   >
@@ -51,15 +51,30 @@ export const Faqs = () => {
                   src={Img}
                   alt=""
                   width={72}
-                  className={`ml-auto ${active === index ? "" : ""}`}
+                  className={`ml-[7px] ${active === index ? "" : ""}`}
                 />
               </div>
             ))}
           </div>
         </div>
 
-        <div className="">
-          <Image src={Images} alt="" width={687.329} height={730.224} />
+        <div className="relative">
+          <Image
+            className="max-w-[687px]"
+            src={Images}
+            alt=""
+            width={607}
+            height={730}
+          />
+
+          <div className="inline-flex flex-col absolute bottom-[180px] left-[105px]">
+            <button className="relative z-10 bg-[#F5AAA5] rounded-[100px] py-[16px] px-[16px] text-[16px] text-[#fff] font-black font-Roboto">
+              Выгода соотношению
+            </button>
+            <button className=" max-w-[170px] bg-[#379FFF] rounded-[100px] py-[16px] px-[16px] text-[16px] text-[#fff] font-black font-Roboto rotate-[12deg]">
+              Цены и качества
+            </button>
+          </div>
         </div>
       </div>
     </section>

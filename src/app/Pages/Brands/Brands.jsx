@@ -52,7 +52,7 @@ export const Brands = () => {
               </div>
               <Link
                 className="w-[70px] h-[70px] bg-[#FFF] py-[24px] px-[24px] inline-flex items-center rounded-[50%] mt-[24px] mb-[32px]"
-                href="#"
+                href={"/Pages/category"}
               >
                 <FaArrowRight className="text-[20px] text-black" />
               </Link>
@@ -77,7 +77,7 @@ export const Brands = () => {
               </div>
               <Link
                 className="w-[70px] h-[70px] bg-[#FFF] py-[24px] px-[24px] inline-flex items-center rounded-[50%] mt-[24px]"
-                href="#"
+                href={"/Pages/category"}
               >
                 <FaArrowRight className="text-[20px] text-black" />
               </Link>
@@ -102,7 +102,7 @@ export const Brands = () => {
               </div>
               <Link
                 className="w-[70px] h-[70px] bg-link-background py-[24px] px-[24px] inline-flex items-center rounded-[50%] mt-[24px]"
-                href="#"
+                href={"/Pages/category"}
               >
                 <FaArrowRight className="text-[20px] text-white" />
               </Link>
