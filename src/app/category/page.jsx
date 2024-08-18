@@ -1,7 +1,7 @@
-import { CategoryData } from "@/app/utils/ProductData";
+import { CategoryData } from "@/utils/ProductData";
 import Image from "next/image";
 import Link from "next/link";
-import ArrowUpRight from "../../../../public/Icons/ArrowUpRight.svg";
+import ArrowUpRight from "../../../public/Icons/ArrowUpRight.svg";
 
 const Category = () => {
   const text = "главная > каталог товаров";
@@ -19,7 +19,7 @@ const Category = () => {
             <Link
               key={index}
               className="relative bg-[#fff] rounded-[32px] pt-[44px] pb-[43px] px-[20px] hover:shadow-custom-shadow duration-300"
-              href={`/Pages/category/${item.id}`}
+              href={`/category/${item.id}`}
             >
               <li>
                 <span className="absolute top-[16px] right-[16px] rounded-[50%] py-[16px] px-[16px] hover:bg-[#F2F3F7] duration-300">

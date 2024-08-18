@@ -1,9 +1,9 @@
 "use client";
-import { FaqsData } from "@/app/utils/data";
-import Img from "../../../../public/Imiges/🔥.png";
+import Img from "../../../public/Imiges/🔥.png";
 import Image from "next/image";
 import { useState } from "react";
-import Images from "../../../../public/Imiges/IMIGES.png";
+import Images from "../../../public/Imiges/IMIGES.png";
+import { FaqsData } from "@/utils/data";
 
 export const Faqs = () => {
   const [active, setActive] = useState(null);

@@ -1,13 +1,12 @@
 import Link from "next/link";
 import { RiArrowRightUpLine } from "react-icons/ri";
-import Instagram from "../../../../public/Icons/Instagram.svg";
-import YouTube from "../../../../public/Icons/YouTube.svg";
-import LinkedIn from "../../../../public/Icons/LinkedIn.svg";
-import Twitter from "../../../../public/Icons/Twitter.svg";
+import Instagram from "../../../public/Icons/Instagram.svg";
+import YouTube from "../../../public/Icons/YouTube.svg";
+import LinkedIn from "../../../public/Icons/LinkedIn.svg";
+import Twitter from "../../../public/Icons/Twitter.svg";
 import Image from "next/image";
-import Map from "../../../../public/Imiges/map.png";
-import Huge from "../../../../public/Icons/Huge.svg";
-import WorldMap from "../../../../public/Imiges/Vector.png";
+import Huge from "../../../public/Icons/Huge.svg";
+import WorldMap from "../../../public/Imiges/Vector.png";
 
 export const Contact = () => {
   return (
@@ -70,13 +69,16 @@ export const Contact = () => {
             </div>
           </div>
 
-          <Image
+          <iframe
             className="mt-[48px]"
-            src={Map}
-            alt=""
-            width={637}
-            height={431}
-          />
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.6139992883864!2d69.28879976711025!3d41.31726149012081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4d260e55d71%3A0x3871e584b31645d4!2sATK%20Turon!5e0!3m2!1sru!2s!4v1723701670010!5m2!1sru!2s"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
         <div className="relative max-w-[610px] bg-[#379FFF] rounded-[24px] pt-[56px] px-[48px] ml-[16px] overflow-hidden">

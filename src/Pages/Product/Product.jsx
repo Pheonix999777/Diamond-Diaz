@@ -1,5 +1,5 @@
-import { ProductData } from "@/app/utils/ProductData";
-import ArrowRightLarge from "../../../../public/Icons/ArrowRightLarge.svg";
+import { ProductData } from "@/utils/ProductData";
+import ArrowRightLarge from "../../../public/Icons/ArrowRightLarge.svg";
 import { ProductCard } from "./ProductCard/ProductCard";
 
 export const Product = () => {

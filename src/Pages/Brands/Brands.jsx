@@ -1,10 +1,10 @@
 import Link from "next/link";
-import Waller from "../../../../public/Imiges/Waller.png";
+import Waller from "../../../public/Imiges/Waller.png";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa6";
-import Img from "../../../../public/Imiges/Group 1000005870.png";
-import Img2 from "../../../../public/Imiges/ALOE-RDY-removebg-preview.png";
-import Img3 from "../../../../public/Imiges/Group 1000005867 (1).png";
+import Img from "../../../public/Imiges/Group 1000005870.png";
+import Img2 from "../../../public/Imiges/ALOE-RDY-removebg-preview.png";
+import Img3 from "../../../public/Imiges/Group 1000005867 (1).png";
 
 export const Brands = () => {
   return (
@@ -25,7 +25,7 @@ export const Brands = () => {
               </div>
               <Link
                 className="w-[70px] h-[70px] bg-[#FFFFFF33] py-[24px] px-[24px] inline-flex items-center rounded-[50%]"
-                href={"/Pages/category"}
+                href={"/category"}
               >
                 <FaArrowRight className="text-[20px] text-white" />
               </Link>
@@ -52,7 +52,7 @@ export const Brands = () => {
               </div>
               <Link
                 className="w-[70px] h-[70px] bg-[#FFF] py-[24px] px-[24px] inline-flex items-center rounded-[50%] mt-[24px] mb-[32px]"
-                href={"/Pages/category"}
+                href={"/category"}
               >
                 <FaArrowRight className="text-[20px] text-black" />
               </Link>
@@ -77,7 +77,7 @@ export const Brands = () => {
               </div>
               <Link
                 className="w-[70px] h-[70px] bg-[#FFF] py-[24px] px-[24px] inline-flex items-center rounded-[50%] mt-[24px]"
-                href={"/Pages/category"}
+                href={"/category"}
               >
                 <FaArrowRight className="text-[20px] text-black" />
               </Link>
@@ -102,7 +102,7 @@ export const Brands = () => {
               </div>
               <Link
                 className="w-[70px] h-[70px] bg-link-background py-[24px] px-[24px] inline-flex items-center rounded-[50%] mt-[24px]"
-                href={"/Pages/category"}
+                href={"/category"}
               >
                 <FaArrowRight className="text-[20px] text-white" />
               </Link>

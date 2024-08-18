@@ -1,3 +1,6 @@
+import Img from "../../public/Imiges/Rectangle 24932.png";
+import Img2 from "../../public/Imiges/ALOE-RDY-product(1).png";
+
 export const Navbar = [
   {
     title: "Главная",
@@ -9,19 +12,19 @@ export const Navbar = [
   },
   {
     title: "Aks",
-    href: "/aks",
+    href: "/category",
   },
   {
     title: "Esviro",
-    href: "/esviro",
+    href: "/category",
   },
   {
     title: "Wallner",
-    href: "/wallner",
+    href: "/category",
   },
   {
     title: "Holzer",
-    href: "/holzer",
+    href: "/category",
   },
 ];
 
@@ -70,3 +73,10 @@ export const AchievementsData = [
   },
 ];
 
+export const Languages = [
+  { title: "English" },
+  { title: "Русский" },
+  { title: "O‘zbekcha" },
+];
+
+export const SliderImges = [{ Img: Img }, { Img: Img }, { Img: Img }];

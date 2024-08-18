@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import ArrowUpRight from "../../../../../public/Icons/ArrowUpRight.svg";
+import ArrowUpRight from "../../../../public/Icons/ArrowUpRight.svg";
 
 export const ProductCard = ({ text, title, img, id }) => {
   return (
     <Link
       className="relative bg-[#fff] rounded-[32px] pt-[44px] pb-[43px] px-[20px] hover:shadow-custom-shadow duration-300"
-      href={`/Pages/category/${id}`}
+      href={`/category/${id}`}
     >
       <li>
         <span className="absolute top-[16px] right-[16px] rounded-[50%] py-[16px] px-[16px] hover:bg-[#F2F3F7] duration-300">

@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Instagram from "../../../../public/Icons/Instagram.svg";
-import YouTube from "../../../../public/Icons/YouTube.svg";
-import LinkedIn from "../../../../public/Icons/LinkedIn.svg";
+import Instagram from "../../../public/Icons/Instagram.svg";
+import YouTube from "../../../public/Icons/YouTube.svg";
+import LinkedIn from "../../../public/Icons/LinkedIn.svg";
 
 export default function Footer() {
   return (
-    <footer className="pt-[145px] pb-[145px]">
+    <footer className="pt-[145px]">
       <div className="container">
         <div className="flex justify-between mb-[28px]">
           <div className="block">
@@ -68,14 +68,12 @@ export default function Footer() {
 
         <div
           style={{ borderTop: "1px solid #D9D9D9" }}
-          className="flex justify-between pt-[15px]"
+          className="flex justify-between pt-[15px] pb-[15px]"
         >
           <p className="text-[14px text-[#172D33] font-Roboto">
             2024 All rights received.
           </p>
-          <p className="text-[14px text-[#172D33] font-Roboto">
-            Design by <span className="text-[#0085FF]">Getter</span>
-          </p>
+          <p className="text-[14px text-[#172D33] font-Roboto">Design by</p>
         </div>
       </div>
     </footer>

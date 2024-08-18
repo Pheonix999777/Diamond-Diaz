@@ -1,7 +1,7 @@
 import Link from "next/link";
-import BlackArrowRight from "../../../../public/Icons/BlackArrowRight.svg";
-import DiamondDiaz from "../../../../public/Imiges/Diamond diaz.png";
-import { AchievementsData } from "@/app/utils/data";
+import BlackArrowRight from "../../../public/Icons/BlackArrowRight.svg";
+import DiamondDiaz from "../../../public/Imiges/Diamond diaz.png";
+import { AchievementsData } from "@/utils/data";
 import Image from "next/image";
 import "./style.css";
 
