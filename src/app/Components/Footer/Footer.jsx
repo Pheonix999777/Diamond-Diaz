@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Instagram from "../../../public/Icons/Instagram.svg";
-import YouTube from "../../../public/Icons/YouTube.svg";
-import LinkedIn from "../../../public/Icons/LinkedIn.svg";
+import Instagram from "../../../../public/Icons/Instagram.svg";
+import YouTube from "../../../../public/Icons/YouTube.svg";
+import LinkedIn from "../../../../public/Icons/LinkedIn.svg";
 
 export default function Footer() {
   return (

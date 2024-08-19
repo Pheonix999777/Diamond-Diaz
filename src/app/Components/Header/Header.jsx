@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import Logo from "../../../public/Imiges/Group 6.png";
+import Logo from "../../../../public/Imiges/Group 6.png";
 import Link from "next/link";
-import Globe from "../../../public/Icons/Globe.svg";
+import Globe from "../../../../public/Icons/Globe.svg";
 import { Languages, Navbar } from "@/utils/data";
 import useHeaderProps from "./useHeaderProps";
 

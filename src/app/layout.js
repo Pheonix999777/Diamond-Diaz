@@ -1,6 +1,6 @@
-import Header from "@/Components/Header/Header";
-import { Contact } from "@/Components/Contact/Contact";
-import Footer from "@/Components/Footer/Footer";
+import { Contact } from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
 import "./globals.css";
 
 export const metadata = {
