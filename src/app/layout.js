@@ -1,7 +1,7 @@
-import Header from "@/Components/Header";
 import "./globals.css";
 import { Contact } from "@/Components/Contact/Contact";
 import Footer from "@/Components/Footer/Footer";
+import Header from "@/Components/Header/Header";
 
 export const metadata = {
   title: "Diamond Diaz",

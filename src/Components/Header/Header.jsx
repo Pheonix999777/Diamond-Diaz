@@ -40,7 +40,7 @@ export default function Header() {
                 {Languages[indexItem].title}
               </button>
               <ul
-                className={`absolute z-10  top-10 bg-white rounded-lg shadow-xl overflow-hidden ${
+                className={`absolute z-10  top-10 bg-white py-2 rounded-lg shadow-xl overflow-hidden ${
                   open ? "block" : "hidden"
                 }`}
               >
