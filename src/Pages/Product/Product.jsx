@@ -1,6 +1,7 @@
 import { ProductData } from "@/utils/ProductData";
-import ArrowRightLarge from "../../../public/Icons/ArrowRightLarge.svg";
-import { ProductCard } from "./ProductCard/ProductCard";
+import { ProductCard } from "../../Components/ProductCard/ProductCard";
+import { Button } from "@/Components/Button/Button";
+import { TittleArrow } from "@/Components/TittleArrow/TittleArrow";
 
 export const Product = () => {
   return (
@@ -8,26 +9,13 @@ export const Product = () => {
       <div className="container">
         <div className="bg-[#F2F3F7] pt-[54px] pb-[38px] px-[16px] rounded-[16px]">
           <div className="ml-[24px]">
-            <div className="flex items-center">
-              <h2 className="text-[#121212] text-[32px] font-bold">
-                Продукты от Wallner
-              </h2>
-              <ArrowRightLarge />
-            </div>
+            <TittleArrow text={"Продукты от Wallner"} />
 
             <div className="flex gap-[12px] mt-[24px]">
-              <button className="bg-custom-background py-[16px] px-[40px] rounded-[11px] text-[#121212] text-[18px]">
-                Алое
-              </button>
-              <button className="bg-custom-background py-[16px] px-[40px] rounded-[11px] text-[#121212] text-[18px]">
-                Жидкое мыло
-              </button>
-              <button className="bg-custom-background py-[16px] px-[40px] rounded-[11px] text-[#121212] text-[18px]">
-                Хозяйственное мыло
-              </button>
-              <button className="bg-custom-background py-[16px] px-[40px] rounded-[11px] text-[#121212] text-[18px]">
-                Другие
-              </button>
+              <Button text={"Алое"} />
+              <Button text={"Жидкое мыло"} />
+              <Button text={"Хозяйственное мыло"} />
+              <Button text={"Другие"} />
             </div>
           </div>
 
@@ -46,26 +34,13 @@ export const Product = () => {
 
         <div className="bg-[#F2F3F7] pt-[54px] pb-[38px] px-[16px] rounded-[16px] mt-[47px]">
           <div className="ml-[24px]">
-            <div className="flex items-center">
-              <h2 className="text-[#121212] text-[32px] font-bold">
-                Продукты от Wallner
-              </h2>
-              <ArrowRightLarge />
-            </div>
+            <TittleArrow text={"Продукты от Wallner"} />
 
             <div className="flex gap-[12px] mt-[24px]">
-              <button className="bg-custom-background py-[16px] px-[40px] rounded-[11px] text-[#121212] text-[18px]">
-                Алое
-              </button>
-              <button className="bg-custom-background py-[16px] px-[40px] rounded-[11px] text-[#121212] text-[18px]">
-                Жидкое мыло
-              </button>
-              <button className="bg-custom-background py-[16px] px-[40px] rounded-[11px] text-[#121212] text-[18px]">
-                Хозяйственное мыло
-              </button>
-              <button className="bg-custom-background py-[16px] px-[40px] rounded-[11px] text-[#121212] text-[18px]">
-                Другие
-              </button>
+              <Button text={"Алое"} />
+              <Button text={"Жидкое мыло"} />
+              <Button text={"Хозяйственное мыло"} />
+              <Button text={"Другие"} />
             </div>
           </div>
 

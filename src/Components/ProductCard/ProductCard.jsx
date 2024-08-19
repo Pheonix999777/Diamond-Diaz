@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import ArrowUpRight from "../../../../public/Icons/ArrowUpRight.svg";
+import ArrowUpRight from "../../../public/Icons/ArrowUpRight.svg";
 
 export const ProductCard = ({ text, title, img, id }) => {
   return (

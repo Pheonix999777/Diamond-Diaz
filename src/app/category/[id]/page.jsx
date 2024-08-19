@@ -4,16 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import ArrowRightUp from "../../../../public/Icons/ArrowRightUp.svg";
-import ArrowRightLarge from "../../../../public/Icons/ArrowRightLarge.svg";
-import ArrowUpRight from "../../../../public/Icons/ArrowUpRight.svg";
+import { TittleArrow } from "@/Components/TittleArrow/TittleArrow";
+import { ProductCard } from "@/Components/ProductCard/ProductCard";
+import { CatalogText } from "@/Components/CatalogText/CatalogText";
 
 const Category = () => {
   const params = useParams();
   const { id } = params;
 
   const product = CategoryData.find((item) => item.id === parseInt(id, 10));
-
-  const text = "главная > каталог товаров";
 
   return (
     <section className="py-[72px]">
@@ -29,9 +28,7 @@ const Category = () => {
           </div>
 
           <div className="max-w-[595px] ml-[57px]">
-            <span className="text-[#121212] text-[13px] opacity-60">
-              {text}
-            </span>
+            <CatalogText text={"главная > каталог товаров"} />
             <h1 className="text-[#121212] text-[32px] font-bold mt-[8px] mb-[16px]">
               AKS — Арбуз
             </h1>
@@ -53,38 +50,19 @@ const Category = () => {
           </div>
         </div>
 
-        <div className="flex items-center mt-[96px]">
-          <h2 className="text-[#121212] text-[32px] font-bold">
-            Продукты от Wallner
-          </h2>
-          <ArrowRightLarge />
+        <div className="mt-[96px]">
+          <TittleArrow text={"Продукты от Wallner"} />
         </div>
 
         <ul className="grid grid-cols-4 mt-[32px] gap-[7px]">
           {ProductData.map((item, index) => (
-            <Link
+            <ProductCard
               key={index}
-              className="relative bg-[#fff] rounded-[32px] pt-[44px] pb-[43px] px-[20px] hover:shadow-custom-shadow duration-300"
-              href={`/category/${item.id}`}
-            >
-              <li>
-                <span className="absolute top-[16px] right-[16px] rounded-[50%] py-[16px] px-[16px] hover:bg-[#F2F3F7] duration-300">
-                  <ArrowUpRight />
-                </span>
-
-                <span className="text-[13px] text-[#000]">{item.text}</span>
-                <h3 className="text-[20px] text-[#121212] font-bold mt-[8px]">
-                  {item.title}
-                </h3>
-                <Image
-                  className="mt-[71px] ml-auto mr-auto"
-                  src={item.img}
-                  alt=""
-                  width={159}
-                  height={219}
-                />
-              </li>
-            </Link>
+              text={item.text}
+              title={item.title}
+              img={item.img}
+              id={item.id}
+            />
           ))}
         </ul>
       </div>

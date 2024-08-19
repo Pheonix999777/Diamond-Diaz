@@ -10,9 +10,9 @@ import WorldMap from "../../../public/Imiges/Vector.png";
 
 export const Contact = () => {
   return (
-    <section className="">
+    <section>
       <div className="container flex">
-        <div className="max-w-[665px] bg-[rgb(247,248,250)] rounded-[24px] pt-[65px] px-[14px] pb-[14px]">
+        <div className="w-full max-w-[675px] bg-[rgb(247,248,250)] rounded-[24px] pt-[65px] px-[14px] pb-[14px]">
           <div className="max-w-[500px] ml-[34px]">
             <div className="relative flex items-center">
               <h3 className="text-[#172D33] text-[40px] font-Roboto font-semibold">
@@ -81,7 +81,7 @@ export const Contact = () => {
           ></iframe>
         </div>
 
-        <div className="relative max-w-[610px] bg-[#379FFF] rounded-[24px] pt-[56px] px-[48px] ml-[16px] overflow-hidden">
+        <div className="relative  max-w-[640px] bg-[#379FFF] rounded-[24px] pt-[56px] px-[48px] ml-[16px] overflow-hidden">
           <h3 className="text-[#fff] text-[40px] font-Roboto font-semibold">
             Партнерство с нами
           </h3>
