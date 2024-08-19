@@ -1,12 +1,12 @@
 import Link from "next/link";
 import { RiArrowRightUpLine } from "react-icons/ri";
-import Instagram from "../../../../public/Icons/Instagram.svg";
-import YouTube from "../../../../public/Icons/YouTube.svg";
-import LinkedIn from "../../../../public/Icons/LinkedIn.svg";
-import Twitter from "../../../../public/Icons/Twitter.svg";
+import Instagram from "../../../public/Icons/Instagram.svg";
+import YouTube from "../../../public/Icons/YouTube.svg";
+import LinkedIn from "../../../public/Icons/LinkedIn.svg";
+import Twitter from "../../../public/Icons/Twitter.svg";
 import Image from "next/image";
-import Huge from "../../../../public/Icons/Huge.svg";
-import WorldMap from "../../../../public/Imiges/Vector.png";
+import Huge from "../../../public/Icons/Huge.svg";
+import WorldMap from "../../../public/Imiges/Vector.png";
 
 export const Contact = () => {
   return (

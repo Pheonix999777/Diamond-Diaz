@@ -20,10 +20,6 @@
     @apply flex flex-col bg-white text-black p-0 text-base font-Unbounded h-full;
   }
 
-  #root {
-    @apply flex flex-col h-full;
-  }
-
   img {
     @apply max-w-full h-auto;
   }
