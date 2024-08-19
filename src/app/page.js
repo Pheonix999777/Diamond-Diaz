@@ -1,8 +1,8 @@
-import { Achievements } from "./Achievements/Achievements";
-import { Brands } from "./Brands/Brands";
-import { Faqs } from "./Faqs/Faqs";
-import { Hero } from "./Hero/Hero";
-import { Product } from "./Product/Product";
+import { Achievements } from "@/Pages/Achievements/Achievements";
+import { Brands } from "@/Pages/Brands/Brands";
+import { Faqs } from "@/Pages/Faqs/Faqs";
+import { Hero } from "@/Pages/Hero/Hero";
+import { Product } from "@/Pages/Product/Product";
 
 export default function Home() {
   return (
